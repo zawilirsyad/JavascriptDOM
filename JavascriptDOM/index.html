@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="heading">Todo App</h1>
+
+      <div class="controls">
+        <div class="bg-red">
+          <button id="bg-red">Background Merah</button>
+        </div>
+        <div class="bg-blue">
+          <button id="bg-blue">Background Biru</button>
+        </div>
+        <div class="bg-white">
+          <button id="bg-white">Background Putih</button>
+        </div>
+      </div>
+      <div class="links">
+        <div class="google-btn">
+          <button id="google-btn">Buka Google</button>
+        </div>
+        <div class="youtube-btn">
+          <button id="youtube-btn">Buka Youtube</button>
+        </div>
+      </div>
+
+      <div class="todo-form">
+        <input type="text" id="todo-input" placeholder="Enter Todo..." />
+        <input type="date" id="date-input" />
+        <button id="submit-btn">Submit</button>
+      </div>
+
+      <h2>Todo List</h2>
+      <table class="todo-list">
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Todo</th>
+            <th>Date</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="todo-table-body"></tbody>
+      </table>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
