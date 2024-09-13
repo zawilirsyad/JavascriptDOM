@@ -7,8 +7,7 @@ A simple Todo App that allows users to manage their tasks and change the backgro
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [File Structure](#file-structure)
-- [License](#license)
+- [Explanation](#explanation)
 
 ## Features
 1. **Change Background Color**: The user can change the background color of the app to red, blue, or white using the provided buttons.
