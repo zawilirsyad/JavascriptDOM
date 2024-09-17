@@ -3,11 +3,15 @@
 A simple Todo App that allows users to manage their tasks and change the background color. The app provides features to add, edit, and delete tasks, as well as shortcuts to open Google and YouTube.
 
 ## Table of Contents
+- [Page View](#pageview)
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
 - [Explanation](#explanation)
+
+## Page View
+![Screenshot 2024-09-17 103949](https://github.com/user-attachments/assets/e3d2b877-cfa1-4a59-9313-64297f567721)
 
 ## Features
 1. **Change Background Color**: The user can change the background color of the app to red, blue, or white using the provided buttons.
